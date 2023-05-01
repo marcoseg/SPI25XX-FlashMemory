@@ -1,3 +1,14 @@
+/*
+ * Read / Wirte Library for SPI 25XX flash memeory series
+ * This sketch writes 256 byte and show the content into the memory
+ * The Circuit:
+ * Pin 2 Chip Select CS
+ * Pin 3 Clock       CLK  
+ * Pin 4 Data Input  DI on chip
+ * Pin 5 Data Output DO on chip
+ * Written by Marcos Guardia 04/24/2023
+ */
+
 #include <25XX.h>
 
 
@@ -12,8 +23,7 @@ int temp[256];
 for(int y = 0; y<256;y++){
   temp[y]=y;
 }
-
-
+mem1.pageprogram(0x000100,temp);
 Serial.println("\n Lectura Bloque 0 mem1 ....\n");
 Serial.println(mem1.mfid(),HEX);
 Serial.println(mem1.jedec(),HEX);
