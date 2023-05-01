@@ -31,7 +31,8 @@ Using basic freatures to Read and Write in Windbond / ST / MX Spi 25XX flash mem
 
 ## Memories Tested
 | Manufacter | IC |
-| Windbond | 25/10/20/40/32 series 25X and 25Q ° 
+| ------------ | -------- |
+| 'Windbond' | 25/10/20/40/32 series 25X and 25Q ° 
 | ST | 25V10P |
 |MX | 25L6473E |
 |Spasion | S25FL016A |
