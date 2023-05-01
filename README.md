@@ -30,11 +30,11 @@ Using basic freatures to Read and Write in Windbond / ST / MX Spi 25XX flash mem
 | `jedec()` | Returns jedec information |
 
 ## Memories Tested
-
-Windbond 25/10/20/40/32 series 25X and 25Q 
-ST 25V10P
-MX 25L6473E
-S25FL016A
+| Manufacter | IC |
+| Windbond | 25/10/20/40/32 series 25X and 25Q ° 
+| ST | 25V10P |
+|MX | 25L6473E |
+|Spasion | S25FL016A |
 
 ## Paltform Tested
 ESP32 and Arduino Mega2560 R3
