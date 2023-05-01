@@ -1,0 +1,31 @@
+#######################################
+# Syntax Coloring Map 25XX
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Spi25XX	KEYWORD1	
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+
+wen 	    KEYWORD2
+rsr         KEYWORD2
+wsr         KEYWORD2
+read        KEYWORD2
+pageprogram	KEYWORD2
+blk64erase      KEYWORD2
+sector4kerase	KEYWORD2
+chiperase	KEYWORD2
+powerdown   KEYWORD2
+rpwd        KEYWORD2
+mfid        KEYWORD2
+jedec       KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
