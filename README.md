@@ -17,10 +17,10 @@ Using basic freatures to Read and Write in Windbond / ST / MX Spi 25XX flash mem
 | `Spi25XX(cs_clk,di,do)` |  Select the interface pins |
 | `wen()` | Enables Write, Erase and (Erase all) commands|
 | `wdis()`| Disables Write, Erase and (Erase all) commands  |
-| `rsr()| Read Status Register |
-| `wsr()| Write Status Register |
+| `rsr()`| Read Status Register |
+| `wsr()`| Write Status Register |
 | `read(address)` | Read specific 32 bit address |
-| `pageprogrma(address, array[])` | Write 256 bytes (page) from specific 32 bit address |
+| `pageprogram(address, array[])` | Write 256 bytes (page) from specific 32 bit address |
 | `blk64erase(address)` | Erase 64kbytes from specific 32 bit address  |
 | `sector4kerase(address)` | Erase 4kbytes sector from specific 32 bit address  |
 | `chiperase()` | Erase entire chip  |
